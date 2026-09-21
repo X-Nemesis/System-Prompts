@@ -191,12 +191,14 @@ PR is open. Rules are simple:
 
 <div align="center">
 
-<a href="https://www.star-history.com/#X-Nemesis/AI-System-Prompts-Archive&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=X-Nemesis/AI-System-Prompts-Archive&type=Date&theme=dark"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=X-Nemesis/AI-System-Prompts-Archive&type=Date"/>
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=X-Nemesis/AI-System-Prompts-Archive&type=Date" width="650"/>
-  </picture>
+## Star History
+
+<a href="https://www.star-history.com/?repos=X-Nemesis%2FAI-System-Prompts-Archive&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=X-Nemesis/AI-System-Prompts-Archive&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=X-Nemesis/AI-System-Prompts-Archive&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=X-Nemesis/AI-System-Prompts-Archive&type=date&legend=top-left" />
+ </picture>
 </a>
 
 </div>
