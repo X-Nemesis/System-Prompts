@@ -1,64 +1,91 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=120&section=header&text=AI%20SYSTEM%20PROMPTS%20ARCHIVE&fontSize=28&fontColor=ffffff&fontAlignY=40&animation=fadeIn" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rect&color=0d0d0d&height=2&section=header"/>
+</picture>
+
+```
+██████╗ ██████╗  ██████╗ ███╗   ███╗██████╗ ████████╗    ██╗     ███████╗ █████╗ ██╗  ██╗███████╗
+██╔══██╗██╔══██╗██╔═══██╗████╗ ████║██╔══██╗╚══██╔══╝    ██║     ██╔════╝██╔══██╗██║ ██╔╝██╔════╝
+██████╔╝██████╔╝██║   ██║██╔████╔██║██████╔╝   ██║       ██║     █████╗  ███████║█████╔╝ ███████╗
+██╔═══╝ ██╔══██╗██║   ██║██║╚██╔╝██║██╔═══╝    ██║       ██║     ██╔══╝  ██╔══██║██╔═██╗ ╚════██║
+██║     ██║  ██║╚██████╔╝██║ ╚═╝ ██║██║        ██║       ███████╗███████╗██║  ██║██║  ██╗███████║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝        ╚═╝       ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+```
+
+**`system prompt archive — what they don't want you reading`**
 
 <br/>
 
-[![Stars](https://img.shields.io/github/stars/X-Nemesis/AI-System-Prompts-Archive?style=for-the-badge&logo=github&color=FF0000&labelColor=0d0d0d)](https://github.com/X-Nemesis/AI-System-Prompts-Archive/stargazers)
-[![Forks](https://img.shields.io/github/forks/X-Nemesis/AI-System-Prompts-Archive?style=for-the-badge&logo=github&color=FF0000&labelColor=0d0d0d)](https://github.com/X-Nemesis/AI-System-Prompts-Archive/network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/X-Nemesis/AI-System-Prompts-Archive?style=for-the-badge&logo=git&color=FF0000&labelColor=0d0d0d)](https://github.com/X-Nemesis/AI-System-Prompts-Archive/commits)
+[![Stars](https://img.shields.io/github/stars/X-Nemesis/AI-System-Prompts-Archive?style=for-the-badge&logo=github&color=FF0000&labelColor=0d0d0d&label=STARS)](https://github.com/X-Nemesis/AI-System-Prompts-Archive/stargazers)
+[![Forks](https://img.shields.io/github/forks/X-Nemesis/AI-System-Prompts-Archive?style=for-the-badge&logo=github&color=FF0000&labelColor=0d0d0d&label=FORKS)](https://github.com/X-Nemesis/AI-System-Prompts-Archive/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/X-Nemesis/AI-System-Prompts-Archive?style=for-the-badge&logo=git&color=FF0000&labelColor=0d0d0d&label=UPDATED)](https://github.com/X-Nemesis/AI-System-Prompts-Archive/commits)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=X-Nemesis.AI-System-Prompts-Archive&style=for-the-badge&color=FF0000&labelColor=0d0d0d)](https://github.com/X-Nemesis/AI-System-Prompts-Archive)
 [![License](https://img.shields.io/badge/LICENSE-CC0%201.0-FF0000?style=for-the-badge&labelColor=0d0d0d)](LICENSE)
-![Status](https://img.shields.io/badge/STATUS-ACTIVE-FF0000?style=for-the-badge&labelColor=0d0d0d)
-
-<br/>
-
-> **The hidden layer behind every major AI. Extracted. Documented. Open.**
 
 </div>
 
 ---
 
-## `>_ what is this`
+## what this is
 
-Most people using AI assistants have no idea what instructions are quietly running behind the scenes — shaping responses, enforcing limits, controlling behavior. This archive makes that visible.
+Every major AI platform runs on a hidden layer of instructions — formatting rules, behavior limits, tool triggers, personas. You never see them. You just see the output they produce.
 
-It's a collection of raw system prompts pulled from production AI platforms. No fluff, no summaries — just the actual instructions these models run on.
-
-Built for people who actually want to understand how these systems work.
+This archive is that hidden layer. Raw, unedited system prompts from production models. No summaries, no paraphrasing.
 
 ---
 
-## `>_ coverage`
+## start here
 
-| Platform | Model(s) | Interface | Updated |
-|----------|----------|-----------|---------|
-| 🔴 Google | Antigravity | Web UI | Sep 2026 |
-| 🔵 Google | Gemini (multiple versions) | Web UI / API | Sep 2026 |
-| ⚫ xAI | Grok | Web UI | Sep 2026 |
-| 🟣 Moonshot AI | Kimi | Web UI | Sep 2026 |
-| 🟠 Perplexity AI | Search models | Web UI | Sep 2026 |
+```
+git clone https://github.com/X-Nemesis/AI-System-Prompts-Archive
+cd AI-System-Prompts-Archive
+# pick a platform folder → open the .txt or .md file → read what the model is actually running
+```
+
+That's it. No setup, no install, no dependencies. It's just files.
 
 ---
 
-## `>_ repo structure`
+## coverage
+
+| # | Platform | Model | Interface | Extraction Date | File |
+|---|----------|-------|-----------|-----------------|------|
+| 01 | ![Google](https://img.shields.io/badge/Google-Antigravity-4285F4?style=flat-square&logo=google&logoColor=white) | Antigravity | Web UI | Sep 2026 | [`/Antigravity`](./Antigravity) |
+| 02 | ![Google](https://img.shields.io/badge/Google-Gemini-4285F4?style=flat-square&logo=google&logoColor=white) | Gemini (multiple) | Web UI / API | Sep 2026 | [`/Gemini`](./Gemini) |
+| 03 | ![xAI](https://img.shields.io/badge/xAI-Grok-000000?style=flat-square&logo=x&logoColor=white) | Grok | Web UI | Sep 2026 | [`/Grok`](./Grok) |
+| 04 | ![Moonshot](https://img.shields.io/badge/Moonshot_AI-Kimi-6B3FA0?style=flat-square&logoColor=white) | Kimi | Web UI | Sep 2026 | [`/Kimi`](./Kimi) |
+| 05 | ![Perplexity](https://img.shields.io/badge/Perplexity-AI-20808D?style=flat-square&logo=perplexity&logoColor=white) | Search models | Web UI | Sep 2026 | [`/Perplexity`](./Perplexity) |
+
+---
+
+## structure
 
 ```
 AI-System-Prompts-Archive/
 │
-├── Antigravity/          # Google Antigravity system instructions
-├── Gemini/               # Google Gemini — multiple model versions
-├── Grok/                 # xAI Grok system instructions
-├── Kimi/                 # Moonshot AI Kimi instructions
-└── Perplexity/           # Perplexity AI search system prompts
+├── 📁 Antigravity/
+│   └── antigravity_system_prompt.md
+│
+├── 📁 Gemini/
+│   ├── gemini_1.5_pro.md
+│   └── gemini_2.0_flash.md
+│
+├── 📁 Grok/
+│   └── grok_system_prompt.md
+│
+├── 📁 Kimi/
+│   └── kimi_system_prompt.md
+│
+└── 📁 Perplexity/
+    └── perplexity_system_prompt.md
 ```
-
-Each file is unedited. What you see is what the model sees.
 
 ---
 
-## `>_ file format`
+## what's inside each file
 
-Every prompt file includes a metadata header for tracking changes over time:
+Every prompt file follows this header format so you can track changes across versions:
 
 ```
 Source Model / Platform  :  [e.g. Gemini / Grok / Perplexity]
@@ -66,43 +93,109 @@ Extraction Date          :  September 2026
 Interface                :  [Web UI / API]
 ```
 
-Prompts change. Versioning matters. That's the whole point of the metadata.
+---
+
+## prompt previews
+
+<details>
+<summary><b>Google Gemini — click to preview</b></summary>
+
+<br/>
+
+```
+You are Gemini, a large language model built by Google...
+[formatting rules, tool definitions, safety constraints follow]
+```
+> Full prompt → [`/Gemini`](./Gemini)
+
+</details>
+
+<details>
+<summary><b>xAI Grok — click to preview</b></summary>
+
+<br/>
+
+```
+You are Grok, built by xAI. You have access to real-time information...
+[persona rules, search behavior, response constraints follow]
+```
+> Full prompt → [`/Grok`](./Grok)
+
+</details>
+
+<details>
+<summary><b>Perplexity — click to preview</b></summary>
+
+<br/>
+
+```
+You are Perplexity, a helpful search assistant...
+[citation format, search tool triggers, output rules follow]
+```
+> Full prompt → [`/Perplexity`](./Perplexity)
+
+</details>
+
+<details>
+<summary><b>Moonshot AI Kimi — click to preview</b></summary>
+
+<br/>
+
+```
+你是 Kimi，由 Moonshot AI 开发的 AI 助手...
+[language handling, tool use, safety instructions follow]
+```
+> Full prompt → [`/Kimi`](./Kimi)
+
+</details>
 
 ---
 
-## `>_ why bother`
+## recently added
 
-Most of what these platforms do is completely opaque. You don't see the instructions — you just see the output. That's a problem if you're:
-
-- A **developer** building on top of these models and trying to understand defaults
-- A **researcher** studying how alignment and safety constraints actually look in production
-- A **prompt engineer** who wants to learn from real-world examples, not toy demos
-- Just someone who's **curious** about what's actually running when you hit send
-
-This archive doesn't pretend to be more than it is. It's a reference. Use it.
+| Date | Platform | What changed |
+|------|----------|-------------|
+| Sep 2026 | Gemini | Added Gemini 2.0 Flash variant |
+| Sep 2026 | Grok | Initial extraction |
+| Sep 2026 | Perplexity | Full search system prompt |
+| Sep 2026 | Kimi | Initial extraction |
+| Sep 2026 | Antigravity | Initial extraction |
 
 ---
 
-## `>_ contributing`
+## why this exists
 
-Found a prompt that's missing or outdated? Open a PR.
+AI companies don't publish these. You interact with the output. You never see the input.
 
-Ground rules:
-- Full unmodified prompt only — no edits, no paraphrasing
+That's a problem if you're:
+
+- **building on top of these APIs** and want to understand what defaults you're working against
+- **doing prompt engineering research** and want real production examples, not toy demos
+- **studying AI behavior** and need actual constraints to analyze
+- **just curious** about what's running when you hit send
+
+---
+
+## contributing
+
+PR is open. Rules are simple:
+
+- Unmodified prompt only — no edits, no paraphrasing, no summarizing
 - Include the metadata header
-- One file per model/platform variant
+- One file per model variant
+- If you're adding a new platform, create a new folder
 
 ---
 
-## `>_ star history`
+## star history
 
 <div align="center">
 
 <a href="https://www.star-history.com/#X-Nemesis/AI-System-Prompts-Archive&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=X-Nemesis/AI-System-Prompts-Archive&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=X-Nemesis/AI-System-Prompts-Archive&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=X-Nemesis/AI-System-Prompts-Archive&type=Date" width="600"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=X-Nemesis/AI-System-Prompts-Archive&type=Date&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=X-Nemesis/AI-System-Prompts-Archive&type=Date"/>
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=X-Nemesis/AI-System-Prompts-Archive&type=Date" width="650"/>
   </picture>
 </a>
 
@@ -110,16 +203,13 @@ Ground rules:
 
 ---
 
-## `>_ disclaimer`
-
-This repository is for research and transparency purposes only. All system prompts remain the intellectual property of their respective organizations. Nothing here encourages violating any platform's terms of service.
-
-If you represent one of the platforms listed and want something removed, open an issue.
+> [!WARNING]
+> This repository is for educational and research purposes only. All system prompts are the intellectual property of their respective organizations. Nothing here encourages violating any platform's terms of service. If you represent one of these platforms and want something removed, open an issue.
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=80&section=footer" width="100%"/>
+made by [X-Nemesis](https://github.com/X-Nemesis) — drop a ⭐ if this saved you time
 
 </div>
